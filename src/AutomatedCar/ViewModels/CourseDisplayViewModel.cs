@@ -14,7 +14,7 @@ namespace AutomatedCar.ViewModels
     public class CourseDisplayViewModel : ViewModelBase
     {
         public ObservableCollection<WorldObjectViewModel> WorldObjects { get; } = new ObservableCollection<WorldObjectViewModel>();
-      
+
         private Avalonia.Vector offset;
 
         public CourseDisplayViewModel(World world)
